@@ -1,0 +1,136 @@
+/* Analogous Colour Scheme
+#464445 - dark gray
+#FFFBF1 - warm white
+#2B7337 - Dark green
+#4B5373 - Darkish blue
+#7F0019 - Burgundy
+*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Arvo|Faster+One|Source+Sans+Pro|Material+Icons');
+
+h1, h2, h3, h4, h5{
+    font-family: 'Arvo', 'Times New Roman', Times, serif;
+    color: #464445; 
+}
+
+p, a{
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    color: #464445;
+}
+
+a{
+    color: #FFFBF1;
+}
+
+/* General CSS */
+html, body{
+    height: 100%;
+    background-color: #4B5373;
+}
+
+main{
+    width: 95%;
+    background-color: #FFFBF1;
+    box-shadow: 0 0 20px 0px #464445;
+    margin-left: 2.5%;
+    padding-bottom: 20px;
+}
+
+/* Navigation */
+.navbar-brand{
+    font-family: 'Faster One', 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: #2B7337;
+    box-shadow: 0 0 20px #464445;
+}
+
+.active a{
+    text-shadow: 0 0 20px #FFFBF1;
+}
+
+.nav-item a:hover{
+    color: #4B5373;
+}
+
+.navbar-brand:hover{
+    color: #FFFBF1;
+}
+
+.navbar-toggler{
+    padding: 0;
+}
+
+.material-icons{
+    font-size: 40px;
+    color: #FFFBF1;
+}
+
+/* index.html */
+.jumbotron{
+    background-color: rgba(43, 115, 55, 0.4);
+}
+
+.jumbotron .container h2{
+    text-shadow: 2px 2px 4px #464445;
+}
+
+.green{
+    color: #2B7337;
+    text-shadow: 2px 2px 4px #2B7337;
+}
+
+/* Footer */
+footer{
+    background-color: #464445;
+    margin-top: 10px;
+
+    padding: 8px;
+}
+
+footer p, footer h4, footer svg{
+    color: #FFFBF1;
+    fill: #FFFBF1;
+}
+
+.iconic-social{
+    margin: 5px;
+}
+
+.iconic-social-facebook:hover{
+    fill: #3B5998;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.iconic-social-twitter:hover{
+    fill: #00aced;
+}
+
+.iconic-social-instagram:hover{
+    fill: #9b6954;
+}
+
+.iconic-social-pinterest:hover{
+    fill: #BD081C;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* Help.html */
+.card{
+    margin: 10px 0 10px 0;
+}
+
+/* Contact.html */
+form{
+    max-width: 800px;
+}
+
+.btn{
+    background-color: #4B5373;
+    border-color: #464445;
+    color: #FFFBF1;
+}
